@@ -1,0 +1,25 @@
+h1{
+    color: brown;
+    text-align: center;
+    font-size: 70px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+    transition: 2s;
+}
